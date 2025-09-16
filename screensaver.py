@@ -15,6 +15,7 @@ try:
                 print(random.choice([0, 1]), end='')
                 columns[i] -= 1
         print()
-        time.sleep(5)
+        time.sleep(0.1)
 except KeyboardInterrupt:
     sys.exit()
+
